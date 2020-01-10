@@ -59,7 +59,26 @@
     body .whyUs .container .whyUsImage {
       min-width: 55vh;
       grid-row: 2 / span 2;
-      background: url("../img/teamMeeting.jpg") 75%/cover no-repeat; } }
+      background: url("../img/teamMeeting.jpg") 75%/cover no-repeat; }
+  .leadTeam .container .words .container {
+    padding: 0 5rem; }
+  .leadTeam .container .teamCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .leadTeam .container .teamCardContainer .leadTeamCard {
+      max-width: 20vw; }
+      .leadTeam .container .teamCardContainer .leadTeamCard .teamPic {
+        border-radius: 130px; }
+  #ourServicesCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    #ourServicesCard .leadTeamCard .teamPic {
+      height: 50vh; }
+  #ourWork .container .photoCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); } }
 
 @media (min-width: 668px) and (max-width: 850px) {
   html {

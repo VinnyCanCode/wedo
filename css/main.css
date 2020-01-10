@@ -8,12 +8,24 @@ html {
   padding: 0;
   margin: 0; }
 
+a {
+  text-decoration: none; }
+  a a:active {
+    text-decoration: none; }
+
 button {
   border: 1px solid transparent;
   border-radius: 5px;
   padding: 0.5rem;
   outline: none;
   cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: #8c8b8b; }
+  a a:active {
+    text-decoration: none;
+    color: #8c8b8b; }
 
 body {
   width: 100vw;
@@ -45,12 +57,15 @@ body {
         flex-direction: row;
         list-style: none; }
         body nav .mainNav ul li {
-          padding-right: 1rem;
+          margin-right: 1rem;
           font-weight: 900;
           color: #8c8b8b;
           cursor: pointer; }
         body nav .mainNav ul li:hover {
           color: #212121; }
+        body nav .mainNav ul .selected {
+          color: #222228;
+          border: 1px solid transparent; }
       body nav .mainNav .aboutNav {
         display: flex;
         flex-direction: row;
@@ -171,10 +186,6 @@ body {
             width: 0.7rem; }
         body .sideNav .container ul .open img {
           transform: rotate(90deg); }
-        body .sideNav .container ul .selected {
-          background-color: #464646;
-          border: 1px solid transparent;
-          border-radius: 5px; }
   body .scrollButton {
     position: fixed;
     top: 92vh;
@@ -211,7 +222,7 @@ body {
       line-height: 1.3rem;
       color: rgba(255, 255, 255, 0.9);
       word-spacing: 0.5rem;
-      font-size: .7rem; }
+      font-size: 0.7rem; }
     body .main-header .container p {
       font-size: 1.1rem; }
     body .main-header .container button {
@@ -262,10 +273,9 @@ body {
       background-color: #ff5252;
       color: white; }
   body aside {
-    height: 30vh;
-    background: url("../img/handInHand.jpg") 100%/cover no-repeat; }
+    height: 30vh; }
     body aside .paralaxImage {
-      background: url("../img/handInHand.jpg") 100%/cover no-repeat;
+      background: url("../img/handInHand.jpg") 20%/cover no-repeat;
       background-attachment: fixed; }
     body aside .container {
       background-color: rgba(0, 0, 0, 0.5);
@@ -357,6 +367,189 @@ body {
     font-size: 0.8rem;
     font-weight: 300; }
 
+#about-header {
+  background: url("../img/you-x-ventures-NdZ08c-zu0c-unsplash.jpg") 77%/cover no-repeat;
+  background-attachment: fixed; }
+  #about-header .colorContainer .container h6 {
+    border: 1px 0 1px 0 solid white;
+    color: white; }
+
+.teamOverview {
+  padding: 2rem; }
+  .teamOverview .container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: space-between; }
+    .teamOverview .container h2 {
+      text-align: center;
+      background-color: #373636;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      color: white;
+      height: 5vh;
+      align-self: center; }
+    .teamOverview .container p {
+      align-self: center;
+      min-width: 10rem;
+      color: #686868; }
+    .teamOverview .container .ourTeamImage {
+      height: 50vh;
+      width: 100%;
+      justify-self: center;
+      border: 5px solid #373636;
+      border-radius: 3px;
+      background: url("../img/you-x-ventures-wVh5grSMYaY-unsplash.jpg") 47%/cover no-repeat; }
+
+.leadTeam .container {
+  margin: 0 auto;
+  padding: 0 2rem; }
+  .leadTeam .container .words {
+    border-radius: 20px 20px 0px 20px;
+    background-color: #ff5252;
+    line-height: 2rem; }
+    .leadTeam .container .words h1 {
+      text-align: center; }
+    .leadTeam .container .words h1,
+    .leadTeam .container .words p {
+      padding: 1rem;
+      color: white; }
+  .leadTeam .container .teamCardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center; }
+    .leadTeam .container .teamCardContainer .leadTeamCard h3,
+    .leadTeam .container .teamCardContainer .leadTeamCard p {
+      text-align: center; }
+    .leadTeam .container .teamCardContainer .leadTeamCard .teamPic {
+      border: 5px solid #ff5252;
+      height: 9rem;
+      width: 9rem; }
+    .leadTeam .container .teamCardContainer .cardOne .teamPic {
+      background: url("../img/you-x-ventures-Ti7LQ0r-zy4-unsplash.jpg") 24% 40%/250% no-repeat;
+      grid-row: 1 / span 1;
+      border-radius: 130px 130px 130px 0px; }
+    .leadTeam .container .teamCardContainer .cardTwo {
+      grid-column: 3 / span 1; }
+      .leadTeam .container .teamCardContainer .cardTwo .teamPic {
+        background: url("../img/you-x-ventures-ZJlfUi5rTDU-unsplash.jpg") 38% 20%/250% no-repeat;
+        border-radius: 130px 130px 0px 130px; }
+    .leadTeam .container .teamCardContainer .cardThree {
+      grid-row: 2 / span 1;
+      grid-column: 2 / span 1; }
+      .leadTeam .container .teamCardContainer .cardThree .teamPic {
+        background: url("../img/you-x-ventures-Wg4gFycu4bE-unsplash.jpg") 70% 10%/220% no-repeat;
+        border-radius: 130px 130px 130px 130px; }
+    .leadTeam .container .teamCardContainer .cardFour {
+      grid-row: 3 / span 1; }
+      .leadTeam .container .teamCardContainer .cardFour .teamPic {
+        background: url("../img/you-x-ventures-LR5CYw3AQNo-unsplash.jpg") 80% 30%/270% no-repeat;
+        border-radius: 130px 130px 130px 0px; }
+    .leadTeam .container .teamCardContainer .cardFive {
+      grid-row: 3 / span 1;
+      grid-column: 3 / span 1; }
+      .leadTeam .container .teamCardContainer .cardFive .teamPic {
+        background: url("../img/you-x-ventures-CDq4ChZouXw-unsplash.jpg") 5% 10%/210% no-repeat;
+        border-radius: 130px 130px 0px 130px; }
+
+#services-header {
+  background: url("../img/analise-benevides-gWedi4SWsHQ-unsplash.jpg") 45%/cover no-repeat;
+  background-attachment: fixed; }
+  #services-header .colorContainer .container h6 {
+    border: 1px 0 1px 0 solid white;
+    color: white; }
+
+.ourServices {
+  padding: 0 2rem; }
+  .ourServices .container .words {
+    border-radius: 20px 20px 0px 20px;
+    background-color: #222228;
+    line-height: 2rem; }
+    .ourServices .container .words h1 {
+      text-align: center; }
+    .ourServices .container .words h1,
+    .ourServices .container .words p {
+      padding: 1rem;
+      color: white; }
+
+#ourServicesCard {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 1rem; }
+  #ourServicesCard .leadTeamCard {
+    height: 100%;
+    width: 100%;
+    text-align: center; }
+    #ourServicesCard .leadTeamCard .teamPic {
+      border: 5px solid #1c1c21;
+      border-radius: 0px;
+      height: 20vh;
+      width: 100%; }
+  #ourServicesCard .cardOne .teamPic {
+    background: url("../img/alasdair-elmes-ULHxWq8reao-unsplash.jpg") 24% 40%/100% no-repeat; }
+  #ourServicesCard .cardTwo .teamPic {
+    background: url("../img/medina-catering-AdtqezIqv7c-unsplash.jpg") 24% 40%/cover no-repeat; }
+  #ourServicesCard .cardThree .teamPic {
+    background: url("../img/lindsey-bahia-Jw2f-zIiQ9s-unsplash.jpg") 24% 22%/cover no-repeat; }
+  #ourServicesCard .cardFour .teamPic {
+    background: url("../img/conor-luddy-IVaKksEZmZA-unsplash.jpg") 24% 20%/cover no-repeat; }
+
+.work .paralaxImage {
+  background: url("../img/you-x-ventures-MUZFKa_mttU-unsplash.jpg") 50%/cover no-repeat;
+  background-attachment: fixed; }
+
+#ourWork {
+  margin: 1rem 0; }
+  #ourWork .container {
+    text-align: center; }
+    #ourWork .container p {
+      color: #686868;
+      font-size: 1.2rem;
+      font-weight: 100;
+      font-style: italic; }
+    #ourWork .container .workNav {
+      display: flex;
+      justify-content: center;
+      padding: 0 2rem; }
+      #ourWork .container .workNav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-items: center;
+        align-items: center;
+        color: white; }
+        #ourWork .container .workNav ul li {
+          background-color: #686868;
+          padding: .5rem 1rem;
+          border: 1px solid transparent;
+          border-radius: 5px;
+          background-color: #686868;
+          box-shadow: -1px 1px 4px black;
+          margin: .2rem;
+          cursor: pointer; }
+    #ourWork .container .photoCards {
+      display: grid;
+      grid-template-rows: repeat(6, 1fr);
+      grid-gap: 1rem;
+      padding: 0 2rem;
+      height: 100%; }
+      #ourWork .container .photoCards .photoCard {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        height: 30vh; }
+      #ourWork .container .photoCards .cardOne {
+        background: url("../img/coupleForeheadKiss.jpg") 0% 80%/cover no-repeat; }
+      #ourWork .container .photoCards .cardTwo {
+        background: url("../img/vitor-pinto-3bAJYaK37yE-unsplash.jpg") 30% 60%/cover no-repeat; }
+      #ourWork .container .photoCards .cardThree {
+        background: url("../img/mel-durham-uacoWyJzDjQ-unsplash.jpg") 0% 60%/cover no-repeat; }
+      #ourWork .container .photoCards .cardFour {
+        background: url("../img/kendra-allen-k8FSoWAOzb4-unsplash.jpg") 0% 80%/cover no-repeat; }
+      #ourWork .container .photoCards .cardFive {
+        background: url("../img/asiya-kiev-SiwrpBnxDww-unsplash.jpg") 0% 80%/cover no-repeat; }
+      #ourWork .container .photoCards .cardSix {
+        background: url("../img/orlova-maria-2aQ8f-_0JvY-unsplash.jpg") 0% 10%/cover no-repeat; }
+
 @media (min-width: 850px) {
   html {
     box-sizing: border-box; }
@@ -418,7 +611,26 @@ body {
     body .whyUs .container .whyUsImage {
       min-width: 55vh;
       grid-row: 2 / span 2;
-      background: url("../img/teamMeeting.jpg") 75%/cover no-repeat; } }
+      background: url("../img/teamMeeting.jpg") 75%/cover no-repeat; }
+  .leadTeam .container .words .container {
+    padding: 0 5rem; }
+  .leadTeam .container .teamCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .leadTeam .container .teamCardContainer .leadTeamCard {
+      max-width: 20vw; }
+      .leadTeam .container .teamCardContainer .leadTeamCard .teamPic {
+        border-radius: 130px; }
+  #ourServicesCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    #ourServicesCard .leadTeamCard .teamPic {
+      height: 50vh; }
+  #ourWork .container .photoCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); } }
 
 @media (min-width: 668px) and (max-width: 850px) {
   html {
