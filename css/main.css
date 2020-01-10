@@ -193,7 +193,6 @@ body {
     transform: rotate(90deg); }
     body .scrollButton img {
       height: 2.5rem;
-      height: 2.5rem;
       border: 2px solid #fe5b5b;
       border-radius: 25px;
       box-shadow: 5px 0px 5px black; }
@@ -249,7 +248,8 @@ body {
       padding: 4rem 3rem;
       display: grid;
       grid-template-rows: repeat(2, 1fr);
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      align-items: space-evenly; }
       body .aboutUs .container p {
         font-size: 0.9rem;
         line-height: 1.5rem;
@@ -550,6 +550,28 @@ body {
       #ourWork .container .photoCards .cardSix {
         background: url("../img/orlova-maria-2aQ8f-_0JvY-unsplash.jpg") 0% 10%/cover no-repeat; }
 
+@media (min-width: 620px) and (max-width: 850px) {
+  html {
+    box-sizing: border-box; }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0; }
+  body #ourWork .container .photoCards .cardOne {
+    background: url("../img/coupleForeheadKiss.jpg") 30% 70%/cover no-repeat; }
+  body #ourWork .container .photoCards .cardTwo {
+    background: url("../img/vitor-pinto-3bAJYaK37yE-unsplash.jpg") 30% 55%/cover no-repeat; }
+  body #ourWork .container .photoCards .cardThree {
+    background: url("../img/mel-durham-uacoWyJzDjQ-unsplash.jpg") 0% 50%/cover no-repeat; }
+  body #ourWork .container .photoCards .cardFour {
+    background: url("../img/kendra-allen-k8FSoWAOzb4-unsplash.jpg") 0% 40%/cover no-repeat; }
+  body #ourWork .container .photoCards .cardFive {
+    background: url("../img/asiya-kiev-SiwrpBnxDww-unsplash.jpg") 0% 10%/cover no-repeat; }
+  body #ourWork .container .photoCards .cardSix {
+    background: url("../img/orlova-maria-2aQ8f-_0JvY-unsplash.jpg") 0% 5%/100% no-repeat; } }
+
 @media (min-width: 850px) {
   html {
     box-sizing: border-box; }
@@ -652,3 +674,24 @@ body {
     place-items: center;
     place-items: center;
     padding: 4rem 10rem; } }
+
+@media (max-width: 450px) and (max-height: 450px) {
+  body nav {
+    height: 100vh; }
+  body .scrollButton img {
+    height: 2rem; }
+  body .aboutUs .container iframe {
+    width: 325px;
+    height: 215px; }
+  body .leadTeam .container {
+    padding: 0 .5rem; }
+    body .leadTeam .container .words {
+      line-height: 1rem; }
+    body .leadTeam .container .teamCardContainer {
+      padding: 0 1rem; }
+      body .leadTeam .container .teamCardContainer .leadTeamCard .teamPic {
+        height: 6rem;
+        width: 6rem; }
+  body #ourWork .container .workNav ul li {
+    padding: 0.3rem;
+    margin: 0.2rem; } }
