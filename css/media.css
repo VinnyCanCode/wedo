@@ -48,6 +48,9 @@
     grid-gap: 2rem; }
     body .aboutUs .container .words {
       min-width: 50vh; }
+    body .aboutUs .container .video img {
+      width: 100%;
+      max-height: 35rem; }
   body .statCounter {
     height: 35vh;
     display: flex;
