@@ -722,8 +722,19 @@ body {
     margin: 0.2rem; } }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-  html body {
-    background-color: red; } }
+  html body .aboutUs .container iframe {
+    width: 325px;
+    height: 215px; }
+  html body .leadTeam .container {
+    padding: 0 1rem; }
+    html body .leadTeam .container .teamCardContainer .leadTeamCard .teamPic {
+      height: 7rem;
+      width: 7rem; }
+  html body #ourWork .container .workNav ul li {
+    padding: 0.3rem;
+    margin: 0.2rem; }
+  html .scrollButton {
+    left: 85%; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   html body .services {
