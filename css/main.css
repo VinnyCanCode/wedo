@@ -676,33 +676,35 @@ body {
     padding: 4rem 10rem; } }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-  html body nav {
-    padding: 1.5rem; }
-    html body nav .logo img {
-      height: 1.5rem;
-      width: 1.5rem; }
-  html body .scrollButton {
-    top: 85vh; }
-  html body .services {
-    height: 80vh; }
-  html body .aboutUs {
-    height: 200vh; }
-    html body .aboutUs .container {
+  html {
+    overflow-x: hidden; }
+    html body nav {
+      padding: 1.5rem; }
+      html body nav .logo img {
+        height: 1.5rem;
+        width: 1.5rem; }
+    html body .scrollButton {
+      top: 85vh; }
+    html body .services {
+      height: 80vh; }
+    html body .aboutUs {
       height: 200vh; }
-  html body .statCounter {
-    height: 150vh; }
-  html body .teamOverview .container h2 {
-    height: 8vh; }
-  html body #ourServicesCard {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); }
-    html body #ourServicesCard .leadTeamCard .teamPic {
-      height: 40vh; }
-  html body #ourWork .container .photoCards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr); } }
+      html body .aboutUs .container {
+        height: 200vh; }
+    html body .statCounter {
+      height: 150vh; }
+    html body .teamOverview .container h2 {
+      height: 8vh; }
+    html body #ourServicesCard {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr); }
+      html body #ourServicesCard .leadTeamCard .teamPic {
+        height: 40vh; }
+    html body #ourWork .container .photoCards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr); } }
 
 @media (min-width: 450px) and (max-height: 450px) {
   body .scrollButton img {
