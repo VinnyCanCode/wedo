@@ -1,5 +1,6 @@
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 *,
 *:before,
@@ -26,6 +27,9 @@ a {
   a a:active {
     text-decoration: none;
     color: #8c8b8b; }
+
+.hide {
+  display: none; }
 
 body {
   width: 100vw;
@@ -149,7 +153,6 @@ body {
     body nav .burger .burger-lines:before {
       background-color: black; }
   body .sideNav {
-    display: none;
     position: fixed;
     padding-top: 50px;
     top: 0;
@@ -164,6 +167,17 @@ body {
       top: 8vh;
       left: 50%;
       background-color: #323232; }
+      body .sideNav .container .menuExitButton {
+        position: inherit;
+        display: flex;
+        width: 50%;
+        padding: 0 1.85rem;
+        margin: 1rem 0;
+        justify-content: flex-end;
+        cursor: pointer; }
+        body .sideNav .container .menuExitButton img {
+          height: 1.2rem;
+          width: 1.2rem; }
       body .sideNav .container ul {
         display: flex;
         flex-direction: column;
@@ -175,13 +189,17 @@ body {
         font-weight: 900;
         padding: 2rem 1rem; }
         body .sideNav .container ul li {
-          padding: 0rem 1rem; }
-        body .sideNav .container ul .aboutNav {
+          padding: 0rem 1rem;
+          cursor: pointer; }
+          body .sideNav .container ul li a {
+            color: #fe5b5b; }
+        body .sideNav .container ul .sideAboutNav {
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          align-items: center; }
-          body .sideNav .container ul .aboutNav img {
+          align-items: center;
+          cursor: pointer; }
+          body .sideNav .container ul .sideAboutNav img {
             height: 0.7rem;
             width: 0.7rem; }
         body .sideNav .container ul .open img {
@@ -195,7 +213,8 @@ body {
       height: 2.5rem;
       border: 2px solid #fe5b5b;
       border-radius: 25px;
-      box-shadow: 5px 0px 5px black; }
+      box-shadow: 5px 0px 5px black;
+      cursor: pointer; }
     body .scrollButton.scrollUp {
       transform: rotate(270deg); }
   body .main-header {
@@ -560,17 +579,17 @@ body {
     padding: 0;
     margin: 0; }
   body #ourWork .container .photoCards .cardOne {
-    background: url("../img/coupleForeheadKiss.jpg") 30% 70%/cover no-repeat; }
+    background: url("../img/Optimized-coupleForeheadKiss.jpg") 30% 70%/cover no-repeat; }
   body #ourWork .container .photoCards .cardTwo {
-    background: url("../img/vitor-pinto-3bAJYaK37yE-unsplash.jpg") 30% 55%/cover no-repeat; }
+    background: url("../img/Optimized-vitor-pinto-3bAJYaK37yE-unsplash.jpg") 30% 55%/cover no-repeat; }
   body #ourWork .container .photoCards .cardThree {
-    background: url("../img/mel-durham-uacoWyJzDjQ-unsplash.jpg") 0% 50%/cover no-repeat; }
+    background: url("../img/Optimized-mel-durham-uacoWyJzDjQ-unsplash.jpg") 0% 50%/cover no-repeat; }
   body #ourWork .container .photoCards .cardFour {
-    background: url("../img/kendra-allen-k8FSoWAOzb4-unsplash.jpg") 0% 40%/cover no-repeat; }
+    background: url("../img/Optimized-kendra-allen-k8FSoWAOzb4-unsplash.jpg") 0% 40%/cover no-repeat; }
   body #ourWork .container .photoCards .cardFive {
-    background: url("../img/asiya-kiev-SiwrpBnxDww-unsplash.jpg") 0% 10%/cover no-repeat; }
+    background: url("../img/Optimized-asiya-kiev-SiwrpBnxDww-unsplash.jpg") 0% 10%/cover no-repeat; }
   body #ourWork .container .photoCards .cardSix {
-    background: url("../img/orlova-maria-2aQ8f-_0JvY-unsplash.jpg") 0% 5%/100% no-repeat; } }
+    background: url("../img/Optimized-orlova-maria-2aQ8f-_0JvY-unsplash.jpg") 0% 5%/100% no-repeat; } }
 
 @media (min-width: 850px) {
   html {

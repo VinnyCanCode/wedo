@@ -41,21 +41,23 @@
     </nav>
 
 
-    <section class="sideNav">
+    <section class="sideNav hide">
         <div class="container">
+            <span class="menuExitButton"><img src="./img/cancel.svg" alt=""></span>
             <ul>
-                <li>HOME</li>
-                <li class="aboutNav open"> ABOUT <img src="./img/right-arrow.svg" alt="right arrow menu">
-                <li>
+                <li><a class="selected" href="./index.html">HOME</a></li>
+                <li class="sideAboutNav"> <a href="./about.html">ABOUT</a> <img class="sideAboutNavArrow"
+                        src="./img/right-arrow.svg" alt="right arrow menu">
+                <li class="miniNav hide">
                     <ul>
-                        <li>OUR STORY</li>
-                        <li>OUR TEAM</li>
+                        <li><a href="./about.html">OUR STORY</a></li>
+                        <li><a href="./about.html">OUR TEAM</a></li>
                     </ul>
                 </li>
                 </li>
-                <li>SERVICES</li>
-                <li>OUR WORK</li>
-                <li>CONTACT</li>
+                <li><a href="./services.html">SERVICES</a></li>
+                <li><a href="./services.html">OUR WORK</a></li>
+                <li><a href="#footer">CONTACT</a></li>
             </ul>
         </div>
     </section>
@@ -69,7 +71,7 @@
                 <br>
                 <p>WE DO. <br> SO YOU DON'T HAVE TO </p>
                 <br>
-                <button>LEARN MORE</button>
+                <button class="learMoreButton">LEARN MORE</button>
             </div>
         </div>
     </header>
@@ -134,7 +136,7 @@
         <div class="paralaxImage">
             <div class="container">
                 <h3>MEET OUR </h3>
-                <img src="./img/right-arrow-circle.svg" alt="rightArrow">
+                <a href="./about.html"><img src="./img/right-arrow-circle.svg" alt="rightArrow"></a>
                 <h3> TEAM </h3>
             </div>
         </div>
@@ -219,6 +221,8 @@
     </section>
 
     <script src="" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/bundle.js"></script></body>
 
 </html>
