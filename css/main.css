@@ -200,7 +200,7 @@ body {
       transform: rotate(270deg); }
   body .main-header {
     height: 95vh;
-    background: url("../img/coupleStairs.jpg") 77%/cover no-repeat;
+    background: url("../img/Optimized-coupleStairs.jpg") 77%/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,7 +242,7 @@ body {
     body .services .servicesCard p {
       font-weight: 100; }
   body .aboutUs {
-    background: url("../img/coupleForeheadKiss.jpg") 77%/cover no-repeat; }
+    background: url("../img/Optimized-coupleForeheadKiss.jpg") 77%/cover no-repeat; }
     body .aboutUs .container {
       background-color: rgba(255, 255, 255, 0.8);
       padding: 4rem 3rem;
@@ -275,7 +275,7 @@ body {
   body aside {
     height: 30vh; }
     body aside .paralaxImage {
-      background: url("../img/handInHand.jpg") 20%/cover no-repeat;
+      background: url("../img/Optimized-handInHand.jpg") 100%/cover no-repeat;
       background-attachment: fixed; }
     body aside .container {
       background-color: rgba(0, 0, 0, 0.5);
@@ -332,7 +332,7 @@ body {
         height: 30rem;
         border: 5px solid #373636;
         border-radius: 3px;
-        background: url("../img/teamMeeting.jpg") 77%/cover no-repeat; }
+        background: url("../img/Optimized-teamMeeting.jpg") 77%/cover no-repeat; }
   body footer {
     background-color: #222228;
     padding: 2rem 0;
@@ -368,7 +368,7 @@ body {
     font-weight: 300; }
 
 #about-header {
-  background: url("../img/you-x-ventures-NdZ08c-zu0c-unsplash.jpg") 77%/cover no-repeat;
+  background: url("../img/Optimized-you-x-ventures-NdZ08c-zu0c-unsplash.jpg") 77%/cover no-repeat;
   background-attachment: fixed; }
   #about-header .colorContainer .container h6 {
     border: 1px 0 1px 0 solid white;
@@ -398,7 +398,7 @@ body {
       justify-self: center;
       border: 5px solid #373636;
       border-radius: 3px;
-      background: url("../img/you-x-ventures-wVh5grSMYaY-unsplash.jpg") 47%/cover no-repeat; }
+      background: url("../img/Optimized-you-x-ventures-wVh5grSMYaY-unsplash.jpg") 47%/cover no-repeat; }
 
 .leadTeam .container {
   margin: 0 auto;
@@ -426,7 +426,7 @@ body {
       height: 9rem;
       width: 9rem; }
     .leadTeam .container .teamCardContainer .cardOne .teamPic {
-      background: url("../img/you-x-ventures-Ti7LQ0r-zy4-unsplash.jpg") 24% 40%/250% no-repeat;
+      background: url("../img/Optimized-you-x-ventures-Ti7LQ0r-zy4-unsplash.jpg") 24% 40%/250% no-repeat;
       grid-row: 1 / span 1;
       border-radius: 130px 130px 130px 0px; }
     .leadTeam .container .teamCardContainer .cardTwo {
@@ -438,7 +438,7 @@ body {
       grid-row: 2 / span 1;
       grid-column: 2 / span 1; }
       .leadTeam .container .teamCardContainer .cardThree .teamPic {
-        background: url("../img/you-x-ventures-Wg4gFycu4bE-unsplash.jpg") 70% 10%/220% no-repeat;
+        background: url("../img/Optimized-you-x-ventures-Wg4gFycu4bE-unsplash.jpg") 70% 10%/220% no-repeat;
         border-radius: 130px 130px 130px 130px; }
     .leadTeam .container .teamCardContainer .cardFour {
       grid-row: 3 / span 1; }
@@ -453,7 +453,7 @@ body {
         border-radius: 130px 130px 0px 130px; }
 
 #services-header {
-  background: url("../img/analise-benevides-gWedi4SWsHQ-unsplash.jpg") 45%/cover no-repeat;
+  background: url("../img/Optimized-analise-benevides-gWedi4SWsHQ-unsplash.jpg") 45%/cover no-repeat;
   background-attachment: fixed; }
   #services-header .colorContainer .container h6 {
     border: 1px 0 1px 0 solid white;
@@ -486,16 +486,16 @@ body {
       height: 20vh;
       width: 100%; }
   #ourServicesCard .cardOne .teamPic {
-    background: url("../img/alasdair-elmes-ULHxWq8reao-unsplash.jpg") 24% 40%/100% no-repeat; }
+    background: url("../img/Optimized-alasdair-elmes-ULHxWq8reao-unsplash.jpg") 24% 40%/100% no-repeat; }
   #ourServicesCard .cardTwo .teamPic {
     background: url("../img/medina-catering-AdtqezIqv7c-unsplash.jpg") 24% 40%/cover no-repeat; }
   #ourServicesCard .cardThree .teamPic {
-    background: url("../img/lindsey-bahia-Jw2f-zIiQ9s-unsplash.jpg") 24% 22%/cover no-repeat; }
+    background: url("../img/Optimized-lindsey-bahia-Jw2f-zIiQ9s-unsplash.jpg") 24% 22%/cover no-repeat; }
   #ourServicesCard .cardFour .teamPic {
-    background: url("../img/conor-luddy-IVaKksEZmZA-unsplash.jpg") 24% 20%/cover no-repeat; }
+    background: url("../img/Optimized-conor-luddy-IVaKksEZmZA-unsplash.jpg") 24% 20%/cover no-repeat; }
 
 .work .paralaxImage {
-  background: url("../img/you-x-ventures-MUZFKa_mttU-unsplash.jpg") 50%/cover no-repeat;
+  background: url("../img/Optimized-you-x-ventures-MUZFKa_mttU-unsplash.jpg") 50%/cover no-repeat;
   background-attachment: fixed; }
 
 #ourWork {
@@ -538,17 +538,17 @@ body {
         border-radius: 10px;
         height: 30vh; }
       #ourWork .container .photoCards .cardOne {
-        background: url("../img/coupleForeheadKiss.jpg") 0% 80%/cover no-repeat; }
+        background: url("../img/Optimized-coupleForeheadKiss.jpg") 0% 80%/cover no-repeat; }
       #ourWork .container .photoCards .cardTwo {
-        background: url("../img/vitor-pinto-3bAJYaK37yE-unsplash.jpg") 30% 60%/cover no-repeat; }
+        background: url("../img/Optimized-vitor-pinto-3bAJYaK37yE-unsplash.jpg") 30% 60%/cover no-repeat; }
       #ourWork .container .photoCards .cardThree {
-        background: url("../img/mel-durham-uacoWyJzDjQ-unsplash.jpg") 0% 60%/cover no-repeat; }
+        background: url("../img/Optimized-mel-durham-uacoWyJzDjQ-unsplash.jpg") 0% 60%/cover no-repeat; }
       #ourWork .container .photoCards .cardFour {
-        background: url("../img/kendra-allen-k8FSoWAOzb4-unsplash.jpg") 0% 80%/cover no-repeat; }
+        background: url("../img/Optimized-kendra-allen-k8FSoWAOzb4-unsplash.jpg") 0% 80%/cover no-repeat; }
       #ourWork .container .photoCards .cardFive {
-        background: url("../img/asiya-kiev-SiwrpBnxDww-unsplash.jpg") 0% 80%/cover no-repeat; }
+        background: url("../img/Optimized-asiya-kiev-SiwrpBnxDww-unsplash.jpg") 0% 80%/cover no-repeat; }
       #ourWork .container .photoCards .cardSix {
-        background: url("../img/orlova-maria-2aQ8f-_0JvY-unsplash.jpg") 0% 10%/cover no-repeat; }
+        background: url("../img/Optimized-orlova-maria-2aQ8f-_0JvY-unsplash.jpg") 0% 10%/cover no-repeat; }
 
 @media (min-width: 620px) and (max-width: 850px) {
   html {
