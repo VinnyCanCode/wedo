@@ -257,7 +257,7 @@ body {
       height: 3rem;
       width: 3rem; }
     body .services .servicesCard h3 {
-      font-weight: 700; }
+      font-weight: 900; }
     body .services .servicesCard p {
       font-weight: 100; }
   body .aboutUs {
@@ -272,7 +272,7 @@ body {
       body .aboutUs .container p {
         font-size: 0.9rem;
         line-height: 1.5rem;
-        font-weight: 400;
+        font-weight: 300;
         color: #525151; }
       body .aboutUs .container .video img {
         width: 100%;
